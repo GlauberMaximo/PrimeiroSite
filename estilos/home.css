@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(178, 219, 253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header{
+    width: 700px;
+    height: 82px;
+    display: flex;
+}
+
+#logo{
+    width: 180px;
+    height: 80px;
+    background-color: rgb(162, 209, 247);
+    /*border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navegacao{
+    /*border: 1px solid black;*/
+    background-color: rgb(151, 198, 236);
+    display: flex;
+    width: 100%; /* arrumou o erro em que os textos grudavam na direita */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#navegacao ul{
+    /*border: 1px solid black;*/
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#navegacao ul li{
+    list-style: none;
+    width: auto;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#navegacao ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}
