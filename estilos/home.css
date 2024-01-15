@@ -1,62 +1,134 @@
-body{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(178, 219, 253);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#header{
-    width: 700px;
+body {
+    position: relative;
+    width: 100vw;
+    background-color: rgb(200, 218, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+hr {
+   width: 70%;
+   background-color: black;
+}
+
+#section hr {
+    width: 100%;
+}
+
+#img_logo {
+    width: 50px;
+    height: 50px;
+}
+
+#header {
+    /*border: 1px solid black;*/
+    width: 70%; 
     height: 82px;
     display: flex;
-}
-
-#logo{
-    width: 180px;
-    height: 80px;
-    background-color: rgb(162, 209, 247);
-    /*border-left: 1px solid;
-    border-bottom: 1px solid;
-    border-top: 1px solid;*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#navegacao{
-    /*border: 1px solid black;*/
-    background-color: rgb(151, 198, 236);
-    display: flex;
-    width: 100%; /* arrumou o erro em que os textos grudavam na direita */
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#navegacao ul{
-    /*border: 1px solid black;*/
-    display: flex;
-    width: 100%;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-bottom: 5px;
 }
 
-#navegacao ul li{
-    list-style: none;
+#logotipo {
+    /*border: 1px solid black;*/
     width: auto;
     height: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-#navegacao ul li a {
-    font-size: 25px;
+nav {
+    /*border: 1px solid black;*/
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+nav ul {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li a {
     text-decoration: none;
-    font-weight: bold;
-    font-family: Arial;
+    font-size: 20px;
+    color: black;
+    transition: 0.3s;
+}
+
+/*nav ul li:active {
+    background-color: red;
+}*/
+
+nav ul li a:hover {
+    font-size: 22px;
+    color: blue;
+}
+
+#section{
+    /*background-color: rgb(141, 165, 197);*/
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section p {
+    margin-bottom: 20px;
+}
+
+#section h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#section iframe {
+    margin-bottom: 25px;
+}
+
+#iframe_maps {
+    width: 400px;
+    height: 350px;
+}
+
+#footer {
+    background-color: rgb(165, 193, 229);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.redes-sociais {
+    color: aliceblue;
 }

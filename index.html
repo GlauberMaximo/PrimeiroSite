@@ -5,21 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/home.css">
-    <title>Site Escola</title>
+    <title>Primeiro Site</title>
 </head>
 <body>
     <div id="header">
-        <div id="logo">
-            <img src="" alt="">
-            <h1>UCB</h1>
+        <div id="logotipo">
+            <img id="img_logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAY1BMVEX///8AldogQJpAsOPHz+a/5fZYcLOQoM2Ayu0uTKCf1/EQnNzx8/mrt9nv+P10iMBgvejP6/jf8vrV2+w8WKcwqeHj5/JQtuYgot+dq9NKZK1mfLq5w9+ClMav3vNww+qP0e/I+1KIAAAJ90lEQVRogbWb6WKiMBCAowLiBeKtbdX3f8pNMlcCOaB158dKbdcvc+YalfqNlM+6XmjplNpVVdUu78XlVx80GVxfbzOSUqnlnKRqd/91CF29mHni0Y2c2t32/6Bft1lfBnQjXx8fQPMeomN0LW3xQfZhH0In6NoFuw+xy0WEnaLP56vlBxxwuEbZs5nOuHuMrvl/1b95BZiL8N+G7P8n/683IY3H03UC/LoEHCIOn0Kfr+6/g4cV13IrSfRfbQuU75j7q19EX5OKNpJUzDvqf0+Fd+cR8JH0+Xw5Df6MWf139PnXFOuvR7Ftvo+jzx/j8bHCOhCVrDaerI6fhht6MZI+Fj8ePok+Dp+DL5yA9Omr6s/4HPypuhj9onZ/xEei/cYK6ySTUuDRv5wfTqcgPhP5zzD8qhpa26zdEXr0nSTAQ6mvMD4F7yJFphbkXhfhMF3r1eJjEa0DbRzexMrrWf/yJo/XEF0bXqG9T/rxEfF9fMUxmFjOhxKscRDlG8f0Ll1/7FYeLzCMy2UwiljkDSNOW7y0D29RvnRM79K14b9F9TuRBh6IRN5h6HSzjqjNw1U/vHlEbCSHbgy/FONalc3UNqwBP0F6aCVj1g9ntHcDo7uKlUwMHB1/Amml0PCVCpfC0GIvmOk6wiER1mSF2U2x6e0SSwyvVnPS2JSdlVnShRLvNIQ34WQ7INVofJC3zn36FykM4zDQu7zVk+FiI7R01vJSwNqY1z17492nGxQEXYtvGrtzAfBl1V/oHsLw2aYxtp+Z+k7xX+M7Hv3CQXfEcZjX7SpIH9Sc6G5pjYYhI4ATIP2Ebl1pg+6BKtvIji49/KQvY3Ab1yYobhyZZ3aC0C3LVrodPK22/E5IqnGq27WbDTwTbBDr5o2nT/+mJ0s9QhykVh5u1sW8bmSPyq9Z5Y7GYb1hXcusFgwOSRWOuYHnU0sKG+06yK+s8pNCoCZvW0Pu2AhfYP9YzFmRsG8ScIy7ZgOj2BD05dJtApuQB53xJbnSkXr7TtKt0trzHVnpRVZgekF2/gEXQDkJLzBQVkwPnsmINBAab4IuyF5M33rDWMLP2xRcJvouDQc/q+uVTH+mIRMd1ksnUqhq84aH2kwuTImNer21g0HMIOXMA9GBNqcH3LMmDU8Gyxoeo15tTMbbgoOBAPH4hcmtyJpHdGkq4sX0OcNjwVHXJ/gfA6GE+caEuvW2mehtGu3AAscMHE1fZ+k23tS6JkuVOAyiWxsWlG9LUCq/vbR/lqiynuMPC/K3pSqmg6ULcnt1GeV2NFkWjkGuFmSqEkeN9Iro4H+cQaIzDMtSpaY3EZdO/tZGQHpLdJg6MJWycDvqvNthftN/aV8aotdEXxIdom05LujA8Xm3M87zt6YfILruSEf/0495OeazXeil52/tAsQU+Ir+L0bTd2OCbhr9Dj+OOU1ajgo6wkHC7zEMBnRw+HI8vYrt2BP0GlOgI7rCIPfo0YNTRx6jQt63PNFVmH4f7/f5ODqYeo30c5h+wsyDGW5Mxs1HJRxOcphx9SJMr5CO+6SP0RF3xUHUiLv59B/AbnG5mjk+G09/w+fhIPZr5f1M9DsuFLHOjzlCHUUHtx/2CAUHqI7ouEgpEIvn0eHt63Q6UtaoMwVdSXTal5DSu9GmH0NHXa+NZ/AhHQ/jLjjJZVaVI+kIaTDouhfC1kSni48f3JnSRUzs0GwSHVWvYWGt3vjKmcdHEd9o8h2+kS84eTqq2pC70QQ69olOmyLKNQoA9fNn+hm9XVOe7Ym+IDpvxmmDsMM7uG1udZWjbzrf6+pJo1AUEHNKeHWnCCDPHzNr+tx5PDn52pHqaAs9xTGddsMXMv2RHjJxn5llSNEnVdcDu/0tdD755WvHJVkhjU/vngl+4KtXdr9e0jKdDyJ2fBLH40jhV8m1DZGaxYGebvTxejP7Ijrvxbcngl44FBP4KnFkQwGnfc1PNZUaM2r0xso5AGtZ+YINUkRDr42vKs+kr0xqeqj85ovplXMMcpFjyB3jj7Git4yu5zm21f7N1l5wzJlTBKHLuW8lJ3FLxm8je7oicnawYXXVnsuLjtCSHvnYBuYyvuMu5nLb38qx2D1o/W34ZPzMjnbh3Ua6DhY+/Yt/UTmXbg4+ZH1jsUDYcWjp6r53nkV1+58cuhy/Fe7VRyt9B9th0bdj62+lNk/+391N4FpdUX3fp4uWlWMI1Z7EEt996+/4k0QWHG7az2IF82e+6h7dVd49Bm2dpptLb7Vj/4vv+Jr/uLnOJPYMvKe6k+895d2Ln9btO/C2V5Ao7jnpTcKt3PTgonrpDRQ/jE1sFhVOm8vd7fkpnDkXhyiXgFe2umky6sFFdbyy5DpvRRL94ZnClFqxhZP6OFwyvZPkpuWkB+fJlicmny767uYD/EOCj1KfKlQzSHIz7Qocrmd5fuFbwx5diqw1r9PkY4Yj91CY+myPvZ/kttdG4AcwNL/BpblHn/emtYePF/Uh9XmspZfktceiW3FWXVKkT5d6C7HlVD07HlFfp75zM3OTJIcmI4FTtxXP9Zs4fcVLG/xZWpwsXtS/VM5NuO9xD04RScNzatOALmtrKmvCAG8kW566nouFRUXIXQoN6bypWvbHw8EQbfygRkKGS58Zq35L06mvQu4lpNLhEivSblnCJ8uC6iCNEJQQ3go4QGfTymXYo48PtTuSngJ3W0BwQeXPxiE6Jb2ze5fQp1muHah/7sPd1kKaZxdZOmeScxMooU97m0HrR9mDezZG1XvLIDq38eV7oLxThAHv38Jaubrwxpv0UfVBg0CQTknvTeayvjX4QNzr8i1wv/EGp9bBli9IpyTz3+fY0/hg28eb4b2Wo4Xrmzydkt5fyfAS6xhrecHXfisrqj48So/QMel7J7Uj+5r7C3w8tAhsdiN0Svr+2cGIztJhHy2UvtB+L6SiVROSfrB/zHaWDvtocWqN9QIFD+Jj11KPdFd1Oey6AdWDvUBROib9cPO8iqNVqMcNVA/3AsXpkPTD5oNM5A0wdBsyjY453f9dNu56ub6hG9+JdEj6nvKJxsIwnm9+Q/I2v4scBkPS/0yE9/BW9di5Fnc+hMRa+TIV7uHt/BI92knSIenbqXA36W3xjR5nJumQ9Kz8hBZ6Sjyreryd3a634mex347y0768smfVI21/RtzewpDtTdLbaWB0+zrJmj49cZCboUPSV5Na90k6OKZJnWXm6Dbpi6nfmgBp3ubf1AW5qcLJO0eb9FOt7kj6CFvlrj9+pbbon/7uSJb+lSUkJfrVOKKnbro/8CW5LnF3kvy+zOpvZicpo/on6Kf7x74deXiF/R+lV5/6YiLKOvStrXewzJ9+/sP3YpvhAOoh/fTzh/zOSOl/H7dHP/3nbwMb6db1AufAKxXaVdUui+lh9g/CtIFq1RhzJwAAAABJRU5ErkJggg==" 
+            alt="Logo da Universidade Católica">
+            <h1>UBEC</h1>
         </div>
-        <nav id="navegacao">
+        <nav>
             <ul>
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contatos</a></li>
             </ul>
         </nav>
+    </div>
+    <!--Fim do cabeçalho-->
+    <hr>
+    <!--Começo da section-->
+    <div id="section"> <!--É recomendado usar o <section> ao invés da <div id="section">-->
+        <p>Fundada em 1972, a União Brasileira de Educação Católica – UBEC surgiu com o objetivo de manter instituições católicas de ensino, proporcionando uma rede de educação sólida e de qualidade.</p>
+        
+        <hr>
+
+        <h2>Vídeo de apresentação da UBEC</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bOzG5TrhtOM?si=cuHrCsmuUFjKZCyz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <hr>
+
+        <h2>Localização</h2>
+        <iframe id="iframe_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.9407741265677!2d-48.128865724775125!3d-15.807076623267703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bcd5c9bd19c39%3A0x6785d519a6a13cac!2sUniversidade%20Cat%C3%B3lica%20de%20Bras%C3%ADlia%20-%20C%C3%A2mpus%20Ceil%C3%A2ndia!5e0!3m2!1spt-PT!2sbr!4v1705326184797!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div id="footer"> <!--É recomendado usar o <footer> ao invés do <div id="footer">-->
+        <p>&copy Todos os direitos reservados por UCB</p>
+        <p class="redes-sociais">Facebook</p>
+        <p class="redes-sociais">Whatsapp</p>
+        <p class="redes-sociais">Instagram</p>
     </div>
 </body>
 </html>
