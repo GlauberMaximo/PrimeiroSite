@@ -5,6 +5,12 @@
 }
 
 body {
+    /*Animação*/
+    background-image: linear-gradient(rgb(200, 218, 241), rgb(161, 190, 230), rgb(76, 139, 221), rgb(29, 118, 235), rgb(0, 107, 247));
+    background-size: 500%;
+    background-repeat: no repeat;
+    animation: fundoanim 5s infinite;
+    /*Fim da animação*/
     position: relative;
     width: 100vw;
     background-color: rgb(200, 218, 241);
@@ -15,7 +21,13 @@ body {
     overflow-x: scroll;
     overflow-y: scroll;
 }
-
+/*Animação parte 2*/
+@keyframes fundoanim {
+    0% {background-position: left;}
+    50% {background-position: right;}
+    100% {background-position: left;}
+}
+/*Fim animação parte 2*/
 hr {
    width: 70%;
    background-color: black;
